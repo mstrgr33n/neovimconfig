@@ -24,4 +24,4 @@ vim.opt.ignorecase = true           -- ignore case in searches by default
 vim.opt.smartcase = true
 
 vim.opt.signcolumn = 'yes'
-
+vim.opt.background = 'dark'
