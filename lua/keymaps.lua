@@ -42,3 +42,5 @@ vim.api.nvim_set_keymap(
   ":Telescope file_browser path=%:p:h select_buffer=true<CR>",
   { noremap = true }
 )
+
+vim.keymap.set('n', '<leader>gg', ':LazyGit<CR>', opts)
