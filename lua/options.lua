@@ -25,3 +25,8 @@ vim.opt.smartcase = true
 
 vim.opt.signcolumn = 'yes'
 vim.opt.background = 'dark'
+
+if vim.g.neovide then
+    -- Put anything you want to happen only in Neovide here
+    vim.cmd([[set guifont=Iosevka\ Nerd\ Font:h11]])
+end

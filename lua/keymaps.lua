@@ -30,17 +30,4 @@ vim.keymap.set('n', '<C-Right>', ':vertical resize +2<CR>', opts)
 vim.keymap.set('v', '<', '<gv', opts)
 vim.keymap.set('v', '>', '>gv', opts)
 
-vim.api.nvim_set_keymap(
-  "n",
-  "<space>e",
-  ":Telescope file_browser<CR>",
-  { noremap = true }
-)
-vim.api.nvim_set_keymap(
-  "n",
-  "<space>eb",
-  ":Telescope file_browser path=%:p:h select_buffer=true<CR>",
-  { noremap = true }
-)
-
 vim.keymap.set('n', '<leader>gg', ':LazyGit<CR>', opts)

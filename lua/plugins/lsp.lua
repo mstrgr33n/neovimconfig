@@ -16,10 +16,10 @@ return {
         end,
         dependencies = {
 
-            { 'hrsh7th/cmp-nvim-lsp', after = 'nvim-cmp' },
-            { 'hrsh7th/cmp-buffer',   after = 'nvim-cmp' }, -- buffer auto-completion
-            { 'hrsh7th/cmp-path',     after = 'nvim-cmp' }, -- path auto-completion
-            { 'hrsh7th/cmp-cmdline',  after = 'nvim-cmp' }, -- cmdline auto-completion
+            { 'hrsh7th/cmp-nvim-lsp', },
+            { 'hrsh7th/cmp-buffer',   }, -- buffer auto-completion
+            { 'hrsh7th/cmp-path',     }, -- path auto-completion
+            { 'hrsh7th/cmp-cmdline',  }, -- cmdline auto-completion
             'rafamadriz/friendly-snippets'
         }
     },
