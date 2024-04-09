@@ -17,9 +17,9 @@ return {
         dependencies = {
 
             { 'hrsh7th/cmp-nvim-lsp', },
-            { 'hrsh7th/cmp-buffer',   }, -- buffer auto-completion
-            { 'hrsh7th/cmp-path',     }, -- path auto-completion
-            { 'hrsh7th/cmp-cmdline',  }, -- cmdline auto-completion
+            { 'hrsh7th/cmp-buffer', },   -- buffer auto-completion
+            { 'hrsh7th/cmp-path', },     -- path auto-completion
+            { 'hrsh7th/cmp-cmdline', },  -- cmdline auto-completion
             'rafamadriz/friendly-snippets'
         }
     },
@@ -43,7 +43,7 @@ return {
         'williamboman/mason-lspconfig.nvim',
         config = function()
             require('mason-lspconfig').setup({
-                ensure_installed = { 'csharp_ls', 'lua_ls' }
+                ensure_installed = { 'csharp_ls', 'lua_ls', 'typescript_ls' }
             })
         end
     },
