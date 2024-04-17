@@ -5,7 +5,7 @@ vim.opt.clipboard = 'unnamedplus'   -- use system clipboard
 vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
 vim.opt.mouse = 'a'
 
-vim.opt.tabstop = 4            -- number of visual spaces per TAB
+vim.opt.tabstop = 2            -- number of visual spaces per TAB
 vim.opt.softtabstop = 4             -- number of spacesin tab when editing
 vim.opt.shiftwidth = 4              -- insert 4 spaces on a tab
 vim.opt.expandtab = true
@@ -28,5 +28,5 @@ vim.opt.background = 'dark'
 
 if vim.g.neovide then
     -- Put anything you want to happen only in Neovide here
-    vim.cmd([[set guifont=Iosevka\ Nerd\ Font:h11]])
+    vim.cmd([[set guifont=JetBrainsMono\ Nerd\ Font:h11]])
 end

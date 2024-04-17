@@ -31,3 +31,13 @@ vim.keymap.set('v', '<', '<gv', opts)
 vim.keymap.set('v', '>', '>gv', opts)
 
 vim.keymap.set('n', '<leader>gg', ':LazyGit<CR>', opts)
+
+
+vim.keymap.set('i', 'jj', '<Esc>', opts)
+vim.keymap.set('i', 'jk', '<Esc>', opts)
+
+vim.keymap.set({'i','n','v'}, '<Up>', '<Nop>', opts )
+vim.keymap.set({'i','n','v'}, '<Down>', '<Nop>', opts )
+vim.keymap.set({'i','n','v'}, '<Left>', '<Nop>', opts )
+vim.keymap.set({'i','n','v'}, '<Right>', '<Nop>', opts )
+
