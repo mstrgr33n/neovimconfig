@@ -6,7 +6,7 @@ return {
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'gruvbox'
+        theme = 'auto'
       },
     },
   }

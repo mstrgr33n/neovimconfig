@@ -1,9 +1,7 @@
 return {
     "nvim-neo-tree/neo-tree.nvim",
     keys = {
-        { "<leader>ft", "<cmd>Neotree toggle<cr>",             desc = "NeoTree toggle" },
-        { "<leader>tf", "<cmd>Neotree focus<cr>",              desc = "NeoTree focus" },
-        { "<leader>fe", "<cmd>Neotree float<cr>",              desc = "NeoTree float" },
+        { "<leader>ft", "<cmd>Neotree float<cr>",              desc = "NeoTree float" },
         { "<leader>sb", "<cmd>Neotree float show buffers<cr>", desc = "NeoTree show buffers" }
     },
     config = function()
